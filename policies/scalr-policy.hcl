@@ -2,6 +2,7 @@ version = "v1"
 
 policy "clouds" {
     enabled = true
+    enforcement_level = "advisory"
 }
 
 policy "instance_types" {
