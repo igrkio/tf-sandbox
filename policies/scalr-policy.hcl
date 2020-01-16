@@ -2,7 +2,7 @@ version = "v1"
 
 policy "clouds" {
     enabled = true
-    enforcement_level = "soft-mandatory"
+    enforcement_level = "hard-mandatory"
 }
 
 policy "instance_types" {
